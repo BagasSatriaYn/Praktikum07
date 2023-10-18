@@ -3,8 +3,9 @@ import java.util.Scanner;
         public static void main(String[] args) {
 
             Scanner input07 = new Scanner(System.in);
-
+            double rataRata;
             int bilangan, total, counter;
+            
             total = 0;
             counter = 0;
 
@@ -18,9 +19,15 @@ import java.util.Scanner;
             
               }
          }
-             System.out.printf("Pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter,  bilangan, total);
+        
+         if (counter > 0 ) {
+            rataRata = (double) total / counter;   
+        
+            System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", bilangan, counter);
+            System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", bilangan, total);
+            System.out.printf("Rata-rata bilangan kelipatan %d dari 1 sampai 50 adalah %.2f\n,", bilangan, rataRata);
             
-             
+         }
     }
 }
 
