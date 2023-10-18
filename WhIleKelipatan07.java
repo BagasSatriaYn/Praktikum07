@@ -21,7 +21,7 @@ public class WhIleKelipatan07 {
                  i++;
                 }
        
-             System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", bilangan, counter);
+            System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", bilangan, counter);
             System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", bilangan, total);
         }
     }
